@@ -20,9 +20,9 @@ img {
 body {
     min-width: 1200px;
     font-family: 'Ubuntu', sans-serif;
+    background-color: #E3E3E3;
 }
 
-/* glob */
 .list-reset {
     margin: 0;
     padding: 0;
@@ -41,26 +41,19 @@ body {
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 /* header */
 .header {
-    background-color: #D9D9D9;
-    height: 200px;
-    border-radius: 0 0 90px 90px;
+    margin-bottom: 115px;
 }
 
 .header-logo {
     margin: 0;
     padding-left: 40px;
     padding-top: 48px;
-}
-
-.header-title {
-    margin-top: 65px;
-    text-align: center;
 }
 
 .logo {
@@ -70,11 +63,80 @@ body {
     margin-left: 100px;
 }
 
-.text-logo {
+.header-text{
     margin-top: 60px;
     margin-left: 25px;
     font-size: 32px;
 }
+
+/* login */
+.login-container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.login-title {
+    font-size: 32px;
+    color: #964000;
+    margin: 0;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.login-form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.form-input {
+    width: 500px;
+    border: 3px solid #B3672B;
+    background-color: rgba(179, 103, 43, 0.25);
+    font-size: 26px;
+    text-align: center;
+    color: #3C3C3C;
+    padding: 12px 100px;
+    border-radius: 200px;
+}
+
+.form-input:not(:last-child) {
+    margin-bottom: 70px;
+}
+
+.form-input:last-child {
+    margin-bottom: 100px;
+}
+
+.login-btn {
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    color: #fff;
+    padding: 12px 58px;
+    background-color: #B3672B;
+    border: 3px solid #B3672B;
+    font-size: 26px;
+    border-radius: 200px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.login-btn:hover {
+    background-color: #B97A48;
+}
+
+.login-btn:focus {
+    background-color: #B97A48;
+}
+
+.login-btn:active {
+    background-color: #E3E3E3;
+    color: #000;
+}
+
+::placeholder {
+    color: #3C3C3C;
+}
+
 
 /* storage */
 .storage-container {
@@ -187,20 +249,6 @@ body {
 }
 
 /* new-order */
-.order-body {
-    margin-bottom: 212px;
-    background-color: #E3E3E3;
-}
-
-.container {
-    padding: 50px 60px;
-    border-radius: 20px;
-}
-
-.order-header {
-    margin-bottom: 115px;
-}
-
 .new-order-content-title {
     margin-bottom: 30px;
 }
@@ -344,13 +392,16 @@ body {
 }
 
 /* all-orders */
-.all-orders-content {
-    width: 1000px;
+.all-orders-container {
+    max-width: 1000px;
     margin: 0 auto;
 }
 
+.order-btn {
+    width: 100%;
+}
+
 .new-order {
-    width: 1000px;
     margin-bottom: 70px;
 }
 
@@ -478,88 +529,14 @@ body {
     margin-left: auto;
 }
 
-/* login */
-.login-container {
-    width: 500px;
-    margin: 0 auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.login-form {
-    width: 500px;
-    margin: 0 auto;
-}
-
-.login-title {
-    font-size: 32px;
-    color: #964000;
-    margin: 0;
-    margin-bottom: 100px;
-    text-align: center;
-}
-
-.form-input {
-    width: 500px;
-    border: 3px solid #B3672B;
-    background-color: rgba(179, 103, 43, 0.25);
-    font-size: 26px;
-    text-align: center;
-    color: #3C3C3C;
-    padding: 12px 100px;
-    border-radius: 200px;
-}
-
-.form-input:not(:last-child) {
-    margin-bottom: 70px;
-}
-
-.form-input:last-child {
-    margin-bottom: 100px;
-}
-
-.login-btn {
-    margin: 0 auto;
-    display: block;
-    width: 200px;
-    color: #fff;
-    padding: 12px 58px;
-    background-color: #B3672B;
-    border: 3px solid #B3672B;
-    font-size: 26px;
-    border-radius: 200px;
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-}
-
-.login-btn:hover {
-    background-color: #B97A48;
-}
-
-.login-btn:focus {
-    background-color: #B97A48;
-}
-
-.login-btn:active {
-    background-color: #E3E3E3;
-    color: #000;
-}
-
-::placeholder {
-    color: #3C3C3C;
-}
-
 /* manager */
-.manager-content {
-    width: 1000px;
-    margin: 0 auto;
+.manager-btn {
+    width: 100%;
 }
 
 .manager-staff {
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    outline: 2px solid #FFD600;
     padding: 30px 70px;
+    outline: 2px solid #FFD600;
     border-radius: 200px;
     background-color: #D9D9D9;
     margin-bottom: 86px;
@@ -588,11 +565,8 @@ body {
 }
 
 .manager-orders {
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    outline: 2px solid #FF7A00;
     padding: 30px 70px;
+    outline: 2px solid #FF7A00;
     border-radius: 200px;
     background-color: #D9D9D9;
     margin-bottom: 86px;
@@ -626,11 +600,8 @@ body {
 }
 
 .manager-lack {
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    outline: 2px solid #FF0000;
     padding: 30px 70px;
+    outline: 2px solid #FF0000;
     border-radius: 200px;
     background-color: #D9D9D9;
     transition: background-color 0.3s ease-in-out, outline 0.3s ease-in-out;
