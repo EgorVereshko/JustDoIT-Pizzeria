@@ -357,6 +357,22 @@ body {
     font-size: 26px;
 }
 
+.comment-info {
+    margin: 0;
+    margin-left: 55px;
+    margin-bottom: 30px;
+    font-size: 26px;
+    color: #4B4B4B;
+}
+
+.name-info {
+    margin: 0;
+    margin-left: 55px;
+    margin-bottom: 30px;
+    font-size: 26px;
+    color: #4B4B4B;
+}
+
 .order-info-style {
     color: #4B4B4B;
 }
@@ -413,12 +429,13 @@ body {
 }
 
 .completed-order-icon {
-    margin-left: 27px;
+    margin: auto 0 auto 27px;
 }
 
 .completed-order-link {
     margin-top: auto;
     margin-bottom: auto;
+    padding: 36px 0;
 }
 
 /* completed-order-info */
@@ -689,7 +706,6 @@ body {
 .staff-table-content {
     font-size: 26px;
     padding: 24px;
-    /* border: 1px solid #000; */
 }
 
 .staff-tick-link {
@@ -705,6 +721,7 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 55px;
+    width: 100%;
 }
 
 .staff-title {
@@ -759,6 +776,7 @@ body {
 }
 
 .staff-table-content-style {
+    margin: 0;
     text-align: center;
 }
 
