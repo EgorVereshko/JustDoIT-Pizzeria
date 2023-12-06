@@ -326,6 +326,10 @@ body {
     background-color: #396b13;
 }
 
+.new-order-image {
+    margin-left: 10px;
+}
+
 /* order */
 .order-container {
     background-color: #fff;
