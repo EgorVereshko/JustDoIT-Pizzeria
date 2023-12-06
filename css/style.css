@@ -575,6 +575,17 @@ body {
     margin-left: 200px;
 }
 
+.order-content-style-address {
+    font-size: 26px;
+    color: #fff;
+    padding-left: 37px;
+    padding-right: 37px;
+    background-color: #8ecf37;
+    border: 1px solid #8ecf37;
+    border-radius: 10px;
+    margin-left: 200px;
+}
+
 .order-link-tick {
     margin-top: auto;
     margin-bottom: auto;
