@@ -1,0 +1,176 @@
+@media (max-width: 1000px) {
+    .header-text {
+        font-size: 28px;
+    }
+
+    .header {
+        margin-bottom: 84px;
+    }
+
+    .container {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .manager-container {
+        max-width: 600px;
+    }
+
+    .manager-staff, .manager-orders, .manager-lack {
+        padding: 15px 0 15px 70px;
+        margin-bottom: 70px;
+    }
+
+    .staff-table-title {
+        font-size: 25px;
+    }
+
+    .staff-table-text, .staff-table-content-style {
+        font-size: 25px;
+    }
+
+    .staff-icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .order-container {
+        max-width: 600px;
+        padding: 30px;
+    }
+
+    .staff-title {
+        width: 525px;
+    }
+
+    .staff-info-icon {
+        width: 120px;
+        height: 120px;
+    }
+
+    .staff-table-text-style {
+        margin-left: 20px;
+    }
+
+    .exit-button {
+        margin-left: 500px;
+    }
+
+    .exit-btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .order-content {
+        flex-direction: column;
+    }
+
+    .order-content-left, .order-content-right {
+        width: 100%;
+    }
+
+    .staff-table-title {
+        font-size: 25px;
+    }
+
+    .all-orders-container {
+        max-width: 600px;
+    }
+    
+    .order {
+        width: 500px;
+    }
+
+    .new-order-title-content {
+        padding: 32px 47px;
+    }
+
+    .order-title-content {
+        padding: 22px 42px;
+    }
+
+    .new-order-content-style {
+        margin-left: 100px;
+    }
+
+    .order-content-style-cook, .order-content-style-delivery, .order-content-style-cancel {
+        margin-left: auto;
+    }
+
+    .completed-orders-logo-link {
+        display: none;
+    }
+
+    .new-order-container, .order-container, .completed-orders-container, .completed-orders-container {
+        max-width: 600px;
+        padding: 30px;
+    }
+
+    .new-order-title, .order-title {
+        width: 525px;
+    }
+
+    .new-order-content {
+        flex-direction: column;
+    }
+
+    .new-order-content-left, .new-order-content-right {
+        width: 100%;
+    }
+
+    .new-order-info {
+        margin-bottom: 30px;
+    }
+
+    .new-order-btn {
+        margin: 100px auto 0 auto;
+        display: block;
+    }
+
+    .indent {
+        margin-bottom: 30px;
+    }
+
+    .completed-orders-logo {
+        margin-left: 15px;
+    }
+
+    .completed-orders {
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .completed-order-icon {
+        display: none;
+    }
+
+    .completed-orders-item {
+        margin: 0 auto 45px auto;
+        width: 500px;
+        border-bottom: 2px solid #FFC700;
+    }
+
+    .completed-order-icon-style {
+        display: none;
+    }
+
+    .order-content-style-address {
+        margin-left: auto;
+    }
+
+    .order-content-style-wait {
+        margin-left: auto;
+    }
+
+    .chef-order-info {
+        flex-direction: column;
+    }
+
+    .chef-order-info-left, .chef-order-info-right {
+        width: 100%;
+    }
+
+    .status-order {
+        margin-left: 10px;
+    }
+}
