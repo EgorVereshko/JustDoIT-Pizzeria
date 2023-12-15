@@ -736,6 +736,7 @@ body {
 /* all-staff */
 .staff-container {
     margin: 0 20px;
+    margin: 0 auto;
 }
 
 .staff-table {

@@ -174,3 +174,306 @@
         margin-left: 10px;
     }
 }
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .header-text {
+        margin: 0;
+        font-size: 30px;
+        margin: 0 auto;
+    }
+
+    .header-logo-image {
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .header {
+        margin-bottom: 68px;
+    }
+
+    .header-logo {
+        margin-top: 25px;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .login-title {
+        margin-bottom: 70px;
+    }
+
+    .login-form {
+        width: 200px;
+    }
+
+    .form-input {
+        width: 100%;
+        padding: 5px 10px;
+        font-size: 24px;
+    }
+
+    .login-title {
+        font-size: 28px;
+    }
+
+    .form-input:not(:last-child) {
+        margin-bottom: 40px;
+    }
+
+    .login-btn {
+        width: 140px;
+        font-size: 24px;
+        padding: 5px 10px;
+    }
+
+    .manager-container {
+        max-width: 200px;
+    }
+
+    .manager-staff, .manager-orders, .manager-lack {
+        margin-bottom: 35px;
+        padding: 15px 25px;
+    }
+    
+    .manager-lack {
+        margin-bottom: 0;
+    }
+
+    .manager-staff-text, .manager-orders-text, .manager-lack-text {
+        margin: auto 0 auto 10px;
+        font-size: 20px;
+    }
+
+    .manager-logo, .orders-logo, .lack-logo {
+        margin: auto 0;
+        width: 30px;
+        height: 30px;
+    }
+
+    .lack-logo {
+        width: 40px;
+    }
+
+    .manager-lack-text {
+        margin-left: 0;
+    }
+
+    .all-orders-container {
+        max-width: 250px;
+    }
+
+    .order {
+        margin-bottom: 32px;
+        width: 200px;
+    }
+
+    .new-order {
+        margin-bottom: 32px;
+    }
+
+    .new-order-title-content {
+        padding: 17px 17px;
+    }
+
+    .new-order-title-content-style {
+        font-size: 25px;
+    }
+
+    .new-order-content-style {
+        margin-left: auto;
+        padding: 5px 15px;
+        font-size: 15px;
+    }
+
+    .order-link-tick {
+        display: none;
+    }
+
+    .order-content-style-cook, .order-content-style-delivery, .order-content-style-cancel, .order-content-style-wait {
+        padding: 5px 15px;
+        font-size: 0;
+        border: none;
+    }
+
+    .order-title-content {
+        padding: 11px 17px;
+    }
+
+    .order-title-content-style {
+        font-size: 25px;
+    }
+
+    .completed-orders-title {
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .completed-orders-logo {
+        display: none;
+    }
+
+    .new-order-container, .order-container, .completed-orders-container {
+        max-width: 260px;
+    }
+
+    .new-order-title, .order-title {
+        width: 100%;
+    }
+
+    .new-order-title, .order-title {
+        font-size: 25px;
+    }
+
+    .circle {
+        width: 15px;
+        height: 15px;
+    }
+
+    .new-order-info-title {
+        font-size: 20px;
+    }
+
+    .new-order-info {
+        font-size: 18px;
+        flex-wrap: wrap;
+    }
+
+    .new-order-info-style {
+        padding: 0;
+    }
+
+    .new-order-btn {
+        margin-top: 40px;
+        padding: 7px 10px;
+        font-size: 20px;
+    }
+
+    .new-order-image {
+        display: none;
+    }
+
+    .order-info {
+        font-size: 18px;
+    }
+
+    .completed-orders-container {
+        padding: 20px;
+    }
+
+    .completed-orders {
+        margin-bottom: 20px;
+    }
+
+    .completed-orders-titlecard {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .completed-order-info-style {
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
+    .completed-orders-item {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .completed-order-info {
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
+    .orders-stars {
+        margin-left: 35px;
+    }
+
+    .star-style {
+        width: 20px;
+        height: 20px;
+    }
+
+    .comment-info {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .name-info {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .staff-info-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .staff-title {
+        width: 100%;
+    }
+
+    .staff-table-text-style {
+        margin: auto 0 auto 10px;
+        font-size: 18px;
+    }
+
+    .chef-all-orders-container, .courier-all-orders-container {
+        max-width: 200px;
+    }
+
+    .status-order {
+        padding: 0;
+        font-size: 18px;
+        width: 100px;
+        height: 45px;
+    }
+
+    .order-content-style-address {
+        display: none;
+    }
+
+    .staff-container {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .staff-table-content {
+        padding: 12px 5px;
+    }
+
+    .staff-table-title {
+        padding: 15px 20px;
+        font-size: 18px;
+    }
+
+    .staff-table-text, .staff-table-content-style {
+        font-size: 18px;
+    }
+
+    .staff-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .staff-tick-link {
+        display: none;
+    }
+
+    .products-weight-available {
+        padding: 5px 10px;
+        font-size: 18px;
+        width: 70px;
+        height: 35px;
+    }
+
+    .products-weight-lack {
+        width: 70px;
+        height: 35px;
+        font-size: 18px;
+    }
+}
