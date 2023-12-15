@@ -447,7 +447,7 @@
     }
 
     .staff-table-title {
-        padding: 15px 20px;
+        padding: 15px 18px;
         font-size: 18px;
     }
 
@@ -465,7 +465,6 @@
     }
 
     .products-weight-available {
-        padding: 5px 10px;
         font-size: 18px;
         width: 70px;
         height: 35px;
@@ -475,5 +474,15 @@
         width: 70px;
         height: 35px;
         font-size: 18px;
+    }
+
+    .exit-btn {
+        width: 20px;
+        height: 20px;
+    }
+
+    .exit-button {
+        margin-left: 206px;
+        margin-top: -25px;
     }
 }
