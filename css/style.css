@@ -291,7 +291,7 @@ body {
 .new-order-info {
     margin: 0;
     font-size: 26px;
-    flex-wrap: wrap;
+    display: block;
 }
 
 .new-order-info:not(:last-child) {
@@ -524,7 +524,22 @@ body {
     background-color: #39AC1C;
     border-radius: 200px;
     color: #fff;
+    transition: background-color 0.3s ease-in-out;
 }
+
+.new-order-content-style:hover {
+    background-color: #8EDF7A;
+}
+
+.new-order-content-style:focus {
+    background-color: #8EDF7A;
+}
+
+
+.new-order-content-style:active {
+    background-color: #39AC1C;
+}
+
 
 .order {
     margin-bottom: 70px;
@@ -736,7 +751,6 @@ body {
 /* all-staff */
 .staff-container {
     margin: 0 20px;
-    margin: 0 auto;
 }
 
 .staff-table {
